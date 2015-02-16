@@ -14,7 +14,7 @@ import services.FlightServices;
 public class Test {
     public static void main(String[] args){
        FlightServices fl = new FlightServices();
-        System.out.println("test " + fl.findAllFlights("stockholm", "gutenberg"));
+        System.out.println("resualt " + fl.findAllFlights("stockholm", "gothenburg"));
     }
     
 }
